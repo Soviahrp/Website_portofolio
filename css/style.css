@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto slab";
+    background-color: white;
+}
+
+.container {
+    padding: 0px 84px;
+
+}
+
+header {
+    width: 100%;
+    height: 78px;
+    border-bottom: 2.5px solid #859ed18f;
+    background-color: #EEF7FF;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-left {
+    align-items: center;
+    height: 80px;
+    width: 50%;
+
+}
+
+.header-right {
+    align-content: center;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 80px;
+    width: 50%;
+}
+
+.header-left h1 {
+    color: #254A99;
+    position: absolute;
+    margin-top: 20px;
+    left: 80px;
+}
+
+.header-right a {
+    text-decoration: none;
+    color: #254A99;
+}
+
+.header-right ul {
+    margin-left: 320px;
+}
+
+.header-right li {
+    float: left;
+    margin-left: 40px;
+    line-height: 71px;
+    font-size: 20px;
+    font-weight: 500;
+    list-style: none;
+
+}
+
+.header-right a:hover {
+    color: #D04848;
+    transition: all 0.3s;
+}
+
+.intro {
+    height: 550px;
+}
+
+.intro h2 {
+    margin-top: 210px;
+    color: #254A99;
+    font-size: 33px;
+    font-weight: 500;
+}
+
+.intro h1 {
+    color: #254A99;
+    font-size: 78px;
+    margin-bottom: 10px;
+    margin-top: 11px;
+}
+
+.intro p {
+    font-size: 30px;
+    color: rgba(75, 75, 75, 0.856);
+    margin-bottom: 3px;
+    text-align: left;
+}
+
+.profile {
+    height: 823px;
+    background-color: #254A99;
+}
+
+.pict-profile {
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+}
+
+.contents-profile {
+    display: flex;
+    flex-direction: row;
+}
+
+.picture h2 {
+    font-size: 46px;
+    margin-top: 175px;
+    margin-bottom: 42px;
+}
+
+.picture p {
+    padding-top: 3px;
+    font-size: 21px;
+}
+
+.picture h2,
+p {
+    width: 600px;
+    text-align: center;
+    color: white;
+}
+
+
+.main {
+    width: 100%;
+}
+
+.main-wrapper {
+    background-color: white;
+    width: 1033px;
+    height: 470px;
+    margin: -100px auto;
+    border-radius: 33px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 2px rgba(0, 0, 0, 0.08);
+}
+
+.main-wrapper h1 {
+    text-align: center;
+    padding: 34px 0 39px 0;
+    font-size: 56px;
+    color: #254A99;
+}
+
+.hoby {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-left: 60px;
+    width: 80%;
+}
+
+.hoby1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.hoby2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 110px;
+}
+
+.hoby3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.hoby {
+    margin: 0 auto;
+}
+
+.hoby img {
+    height: 260px;
+}
+
+.hoby h2 {
+    display: flex;
+    flex-direction: column;
+    color: #24a3c9;
+    position: relative;
+    top: 0;
+    margin: 16px 0 12px 0;
+}
+
+.section1 {
+    text-align: center;
+    color: #254A99;
+    margin-top: 150px;
+    font-size: 60px;
+}
+
+.section2 {
+    padding-top: 20px;
+    color: #254A99;
+    margin: 0 auto;
+    font-size: 21px;
+}
+
+.project-result {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    width: 1033px;
+    height: 524px;
+    margin: 50px auto;
+    border-radius: 33px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 2px rgba(0, 0, 0, 0.08);
+}
+
+.detail-mobile {
+    width: 605px;
+    margin: 89px 20px 102px 115px;
+}
+
+.detail-mobile h1 {
+    color: #24a3c9;
+}
+
+.detail-mobile p {
+    color: #6D6D6D;
+    text-align: left;
+    width: 550px;
+    margin-top: 18px;
+    line-height: 30px;
+}
+
+.detail-mobile i {
+    font-size: 40px;
+}
+
+.section3 {
+    text-align: center;
+    color: #254A99;
+    font-size: 60px;
+    margin-bottom: 12px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.socmed {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 400px;
+    width: 40%;
+    height: 40px;
+    font-size: 40px;
+    justify-content: center;
+}
+
+.socmed i {
+    margin-left: 40px;
+    margin-right: 40px;
+    color: rgb(40, 48, 50);
+}
+
+footer {
+    padding-top: 95px;
+    margin-top: 70px;
+    width: 100%;
+    height: 230px;
+    background-color: #859ed18f;
+}
+
+footer p {
+    font-size: 30px;
+    color: #254A99;
+    margin: 28px auto;
+}
